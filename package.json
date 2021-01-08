@@ -1,0 +1,39 @@
+{
+  "name": "iimmpact_nodejs",
+  "version": "1.0.0",
+  "description": "IIMMPACT - iimmpact_api",
+  "main": "src/index.js",
+  "bin": {
+    "iimmpact_api": "src/index.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive --timeout 15000",
+    "start": "src/index.js"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "superagent": "^3.7.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.3"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iimmpact/iimmpact.git"
+  },
+  "keywords": [
+    "iimmpact"
+  ],
+  "author": "alextan333",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/iimmpact/iimmpact/issues"
+  },
+  "homepage": "https://github.com/iimmpact/iimmpact#readme"
+}
