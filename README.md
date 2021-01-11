@@ -1,17 +1,41 @@
-# IIMMPACT API for Node.js
+ # iimmpact_api
 
-IIMMPACT - iimmpact_api
+IimmpactApi - JavaScript client for iimmpact_api
 
 ## Installation
 
+### For [Node.js](https://nodejs.org/)
+
+#### npm
+
 ```shell
-    npm install iimmpact/iimmpact_api --save
+npm install @iimmpact/iimmpact-api --save
+```
+
+### Webpack Configuration
+
+Using Webpack you may encounter the following error: "Module not found: Error:
+Cannot resolve module", most certainly you should disable AMD loader. Add/merge
+the following section to your webpack config:
+
+```javascript
+module: {
+  rules: [
+    {
+      parser: {
+        amd: false
+      }
+    }
+  ]
+}
 ```
 
 ## Getting Started
 
+Please follow the [installation](#installation) instruction and execute the following JS code:
+
 ```javascript
-var IimmpactApi = require('iimmpact_api');
+var IimmpactApi = require('@iimmpact/iimmpact-api');
 
 var api = new IimmpactApi.AuthorizationTokenApi()
 

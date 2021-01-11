@@ -1,14 +1,14 @@
 {
-  "name": "iimmpact_nodejs",
-  "version": "1.0.0",
+  "name": "@iimmpact/iimmpact-api",
+  "version": "1.0.1",
   "description": "IIMMPACT - iimmpact_api",
   "main": "src/index.js",
-  "bin": {
-    "iimmpact_api": "src/index.js"
-  },
   "scripts": {
     "test": "mocha --recursive --timeout 15000",
     "start": "src/index.js"
+  },
+  "browser": {
+    "fs": false
   },
   "dependencies": {
     "querystring": "^0.2.0",
@@ -19,21 +19,19 @@
     "mocha": "^2.3.4",
     "sinon": "^1.17.3"
   },
+  "author": "alextan333",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iimmpact/iimmpact_api/issues"
+  },
+  "homepage": "https://github.com/iimmpact/iimmpact_api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iimmpact/iimmpact_api.git"
+  },
+  "keywords": [],
   "directories": {
     "doc": "docs",
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iimmpact/iimmpact.git"
-  },
-  "keywords": [
-    "iimmpact"
-  ],
-  "author": "alextan333",
-  "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/iimmpact/iimmpact/issues"
-  },
-  "homepage": "https://github.com/iimmpact/iimmpact#readme"
+  }
 }
