@@ -1,10 +1,6 @@
- # iimmpact_api
-
-IimmpactApi - JavaScript client for iimmpact_api
+# IIMMPACT API - - The Node Js library for the IIMMPACT API
 
 ## Installation
-
-### For [Node.js](https://nodejs.org/)
 
 #### npm
 
@@ -157,4 +153,3 @@ Class | Method | HTTP request | Description
 - **Type**: API key
 - **API key parameter name**: x-api-key
 - **Location**: HTTP header
-
