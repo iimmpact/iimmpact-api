@@ -1,4 +1,4 @@
-# IIMMPACT API - - The Node Js library for the IIMMPACT API
+# IIMMPACT API - The Node Js library for IIMMPACT API
 
 ## Installation
 
